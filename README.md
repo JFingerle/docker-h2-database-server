@@ -4,7 +4,7 @@ Docker image for a H2 SQL database running in "server mode" (remotely accessible
 H2 is a very lightweight but fast SQL database - perfect for small projects.
 
 # Features
-* H2 Database is remotely accessible via JDBC (over network/tcp)
+* H2 Database remotely accessible via JDBC (over network/tcp)
 * Creates the database automatically on startup if it does not exist already
 * Lightweight
 * OpenJDK11
