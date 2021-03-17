@@ -1,5 +1,5 @@
 # docker-h2-database-server
-Docker image for a H2 SQL database (remotely accessible via JDBC (tcp))
+Docker image for a H2 SQL database running in "server mode" (remotely accessible via JDBC over network)
 
 H2 is a very lightweight but fast SQL database - perfect for small projects.
 
