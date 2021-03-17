@@ -5,7 +5,7 @@ H2 is a very lightweight but fast SQL database - perfect for small projects.
 
 # Features
 * H2 Database remotely accessible via JDBC (over network/tcp)
-* Creates the database automatically on startup if it does not exist already
+* Creates the database automatically on startup if it does not exist already. User and password of the new db can be configured via env variables (see sample below).
 * Lightweight
 * OpenJDK11
 
