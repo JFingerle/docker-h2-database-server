@@ -13,8 +13,8 @@ H2 is a very lightweight but fast SQL database - perfect for small projects.
 * Clone the git repo
 * Download the H2 jar file [here](https://mvnrepository.com/artifact/com.h2database/h2/latest). E.g. [version 1.4.200](https://repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar). Put it into the directory of the git repo and name it "h2.jar".
 * Use docker-compose to build the image and start your docker container (see sample below)
-* Connect via JDBC: "jdbc:h2:tcp://myServer:9092/myDbName"
-* 
+* Connect via JDBC: "jdbc:h2:tcp://myServer:9092/myDbName". Use the user+password you set using the env variables.
+
 # Docker-Compose sample configuration
 
 ```
